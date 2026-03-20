@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+body {
+  background: #fff !important;
+  font-family: "Lexend Deca", sans-serif !important;
+}
+
+hr {
+  margin: 8px !important;
+}
+
+.hr_line {
+  margin: inherit !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #33372c !important;
+  margin-bottom: initial !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.match_height {
+  height: 100% !important;
+}
+
+.outlet_mobile_view {
+  margin-top: 70px;
+}
+
+.outlet_collapsed {
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.outlet_not_collapsed {
+  margin-left: 250px;
+  margin-top: 70px;
+}
+
+.teal {
+  color: #1E93AB !important;
+}
+
+.dark_blue {
+  color: #14335d !important;
+}
+
+.pitch {
+  color: #F5C9B0 !important;
+}
+
+.grey {
+  color: #F9F6F3 !important;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.zoom-animation {
+  animation: zoomInOut 3s infinite ease-in-out;
+}
